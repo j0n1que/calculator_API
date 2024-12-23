@@ -43,6 +43,7 @@ curl --location http://localhost:8080/api/v1/calculate --header "Content-Type: a
 
 ![image](https://github.com/user-attachments/assets/428cb03c-2da8-4b45-8cb4-e5bed62de92b)
 
+Перед запуском в корневой директории создайте файл .env по шаблону в .env.example!
 
 Запускается из корневой директории проекта api.calculator/
 командой: go run ./cmd/main.go 
